@@ -16,7 +16,7 @@ public class SwaggerConfig {
 	@Bean	
 	public Docket postsApi() {
 		return new Docket(DocumentationType.SWAGGER_2)
-				.groupName("geo-location-api")				
+				//.groupName("geo-location-api")				
 				.select()
 				.apis(RequestHandlerSelectors.any())
 				.paths(PathSelectors.any())
