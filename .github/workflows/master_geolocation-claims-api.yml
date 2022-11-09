@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'geolocation-claims-api'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_020898C2A9864753B3888087E2B3A832 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_10D1A32EC9AA40619E2744157B713D44 }}
           package: '*.jar'
